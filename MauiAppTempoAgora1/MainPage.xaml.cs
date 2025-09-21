@@ -18,8 +18,8 @@ namespace MauiAppTempoAgora1
             // verificar a conexão com a Internet antes de seguir
             if (Connectivity.Current.NetworkAccess != NetworkAccess.Internet)
             {
-                lbl_res.Text = "Você está sem conexão com a Internet ou com algum problema de rede," +
-                    "verifique sua conexão ou tente novamente mais tarde";
+                lbl_res.Text = "Você está sem conexão com a Internet ou com algum problema de rede, " +
+                    "verifique sua conexão ou tente novamente mais tarde.";
                 return;
             }
 
