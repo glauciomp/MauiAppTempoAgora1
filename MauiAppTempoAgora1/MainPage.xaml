@@ -21,7 +21,7 @@
                     Clicked="Button_Clicked"/>
 
             <Label x:Name="lbl_res" 
-                   FontSize="20"/>
+                   FontSize="15"/>
 
         </VerticalStackLayout>
     </ScrollView>
