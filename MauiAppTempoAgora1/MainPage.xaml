@@ -7,7 +7,7 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            
+
             <Image Source="temp.png"
                    Aspect="AspectFit"
                    VerticalOptions="Start"
@@ -16,9 +16,12 @@
                    WidthRequest="100"/>
 
             <Entry x:Name="txt_cidade"/>
-            <Button Text="Buscar" Clicked="Button_Clicked"/>
 
-            <Label x:Name="lbl_res" FontSize="20"/>
+            <Button Text="Buscar" 
+                    Clicked="Button_Clicked"/>
+
+            <Label x:Name="lbl_res" 
+                   FontSize="20"/>
 
         </VerticalStackLayout>
     </ScrollView>
