@@ -7,6 +7,13 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+            
+            <Image Source="temp.png"
+                   Aspect="AspectFit"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"
+                   HeightRequest="100"
+                   WidthRequest="100"/>
 
             <Entry x:Name="txt_cidade"/>
             <Button Text="Buscar" Clicked="Button_Clicked"/>
